@@ -1,6 +1,6 @@
-# An Analysis of Kickstarter Campaigns
+# Analysis of Kickstarter Fundraising Campaigns
 
-## Performing Analysis on Kickstarter Data to Uncover Trends
+## Performing Analysis on Kickstarter Data of Fundraising Campaigns to Uncover Trends
 
 ### Purpose
 
