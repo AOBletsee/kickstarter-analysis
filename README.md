@@ -12,6 +12,8 @@
 
 
 
+
+
 ## Analysis and Challenges
 
 #### We performed an analysis of fundraising campaigns according to their respective Launch Dates using a Pivot Table to filter data, and generated a chart to provide a visual representation of this analysis. We aimed here to understand the relationship between the months of the year in which camapigns were started and whether those are relevant in determining more or less propensity for success. We also performed an analysis of campaigns according to fundraising goals, generating a visual representation of that analysis as well. We applied formulas to evaluate tendencies of success and failure, dividing the goals in twelve different ranges. Using the Pivot Table and table of ranges respectively, we were able to generate line graphs that were tailored to salient those specific analytic scopes.
@@ -44,6 +46,8 @@
 
 
 
+
+
 ### Challenges and Difficulties Encountered
 
 #### Spoken from the perspective of a student working on this project as a challenge for _Module 1_ learning, there were specific challenges and difficulties that I encountered.
@@ -57,9 +61,12 @@
 
 
 
+
+
+
 ## Results
 
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
+#### - What are two conclusions you can draw about the Outcomes based on Launch Date?
 
   * Most kick-starter fundraising campaigns for theater productions have been launched between the months of April and August, with isolated peaks in February and October. 
   
