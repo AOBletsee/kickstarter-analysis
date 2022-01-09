@@ -7,12 +7,15 @@
 
 ### Purpose
 
-#### Playwright Louise plans to launch a crowdfunding campaign to obtain funds for kick-starting her theater production, 'Fever'.  Louise has never launched a crowdfunding campaign, and needs help setting appropriate goals and identifying parameters for making well-informed decisions in creating the most optimal fundraising campaign. For this project, we were provided with a dataset that lays out information about other kick-starter campaigns. The purpose of this analysis is to better understand and filter the tabular data. By performing this analysis, we will observe characteristics of other campaigns to reveal tendencies and patterns concatenated from various datapoints, creating new and useful information that will determine how we can best advise Louise in taking her next steps.
+###### Playwright Louise plans to launch a crowdfunding campaign to obtain funds for kick-starting her theater production, 'Fever'.  Louise has never launched a crowdfunding campaign, and needs help setting appropriate goals and identifying parameters for making well-informed decisions in creating the most optimal fundraising campaign. For this project, we were provided with a dataset that lays out information about other kick-starter campaigns. The purpose of this analysis is to better understand and filter the tabular data. By performing this analysis, we will observe characteristics of other campaigns to reveal tendencies and patterns concatenated from various datapoints, creating new and useful information that will determine how we can best advise Louise in taking her next steps.
+
+
 
 
 ## Analysis and Challenges
 
 #### We performed an analysis of fundraising campaigns according to their respective Launch Dates using a Pivot Table to filter data, and generated a chart to provide a visual representation of this analysis. We aimed here to understand the relationship between the months of the year in which camapigns were started and whether those are relevant in determining more or less propensity for success. We also performed an analysis of campaigns according to fundraising goals, generating a visual representation of that analysis as well. We applied formulas to evaluate tendencies of success and failure, dividing the goals in twelve different ranges. Using the Pivot Table and table of ranges respectively, we were able to generate line graphs that were tailored to salient those specific analytic scopes.
+
 
 
 ### Analysis of Outcomes Based on Launch Date
@@ -22,6 +25,7 @@
 #### Filtering the data to include only ‘Theater’ from the Parent Category list, and leaving all years as parameters for counts of outcomes in every month, we created a line chart with months of the year in the _x-axis_ and count of outcomes in the _y-axis_, as seen below:
 
 ![this is an image](Theater_Outcomes_vs_Launch.png)
+
 
 
 ### Analysis of Outcomes Based on Goals
@@ -34,6 +38,8 @@
 ![this is an image](Outcomes_vs_Goals.png)
 
 
+
+
 ### Challenges and Difficulties Encountered
 
 #### Spoken from the perspective of a student working on this project as a challenge for _Module 1_ learning, there were specific challenges and difficulties that I encountered.
@@ -43,6 +49,8 @@
 #### Creating the table for ‘Outcomes Based on Goals’ using 'COUNTIF()' formulas also presented challenges, such as having the circuitous task of copy/pasting the formula several times and altering the specific numbers for every cell, which provided ample room for error. I believe that this task would have been better executed with the aid of automated actions that could be reached by manipulating Excel in programmatic levels. The step of calculating percentages was to be inferred, and wasn’t fully explained, which provided the extra challenge of extrapolating knowledge from material that has been learned. 
 
 #### In both instances, having a visual reference for the correct format of the tables, charts and graphs that were being required was extremely useful. Taking those cues as reference points, I was able to orient the work that was I was doing accordingly.
+
+
 
 
 ## Results
