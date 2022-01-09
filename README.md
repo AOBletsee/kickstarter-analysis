@@ -76,7 +76,7 @@
 
   * Therefore, **May** would be the **most ideal** time of the year for Louise to launch her kick-starter campaign. Conversely, **December** would be the **least ideal** time of the year to launch the campaign.
 
-- What can you conclude about the Outcomes based on Goals?
+#### - What can you conclude about the Outcomes based on Goals?
 
   * Kick-starter fundraising campaigns for theater productions that set their fundraising goals between $1,000 USD and $5,000 USD were most successful in reaching their goals, setting this goal range apart from all others as the _most ideal way_ to launch a theater campaign.
 
@@ -94,7 +94,7 @@
 
   * Further down the road, if Louise launches multiple theater productions simultaneously, and finds herself within more than double her initial estimated costs of USD $10,000 on a given year, it would then be wise to set her campaign goals between USD $35,000 and USD $45,000.
 
-- What are some limitations of this dataset?
+#### - What are some limitations of this dataset?
 
   * This dataset contains tabular data on fundraising campaigns for nine different categories of projects, and 40 subcategories altogether. The data spreads across 22 countries and is limited to an eight-year period, between the years 2009 and 2017. 
   
@@ -104,7 +104,7 @@
     
     * Lastly, the dataset does not show trends of fundraising campaigns launched within the past five years. The latter information would be especially critical, considering the drastic economic shifts of our most recent times.
 
-- What are some other possible tables and/or graphs that we could create?
+#### - What are some other possible tables and/or graphs that we could create?
 
   * Using the converted dates, we could create an ‘Outcomes Based on Length’ line chart comparing the success rates of campaigns with longer durations versus those that are kept active for a shorter period; to help infer what would be the ideal span for Louise to keep her campaign or campaigns active.
 
