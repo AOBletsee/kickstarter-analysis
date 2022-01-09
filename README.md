@@ -7,7 +7,7 @@
 
 ### Purpose
 
-###### Playwright Louise plans to launch a crowdfunding campaign to obtain funds for kick-starting her theater production, 'Fever'.  Louise has never launched a crowdfunding campaign, and needs help setting appropriate goals and identifying parameters for making well-informed decisions in creating the most optimal fundraising campaign. For this project, we were provided with a dataset that lays out information about other kick-starter campaigns. The purpose of this analysis is to better understand and filter the tabular data. By performing this analysis, we will observe characteristics of other campaigns to reveal tendencies and patterns concatenated from various datapoints, creating new and useful information that will determine how we can best advise Louise in taking her next steps.
+#### Playwright Louise plans to launch a crowdfunding campaign to obtain funds for kick-starting her theater production, 'Fever'.  Louise has never launched a crowdfunding campaign, and needs help setting appropriate goals and identifying parameters for making well-informed decisions in creating the most optimal fundraising campaign. For this project, we were provided with a dataset that lays out information about other kick-starter campaigns. The purpose of this analysis is to better understand and filter the tabular data. By performing this analysis, we will observe characteristics of other campaigns to reveal tendencies and patterns concatenated from various datapoints, creating new and useful information that will determine how we can best advise Louise in taking her next steps.
 
 
 
