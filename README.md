@@ -7,7 +7,7 @@
 
 ### Purpose
 
-#### Playwright Louise plans to launch a crowdfunding campaign to obtain funds for kick-starting her theater production, 'Fever'.  Louise has never launched a crowdfunding campaign, and needs help setting appropriate goals and identifying parameters for making well-informed decisions in creating the most optimal fundraising campaign. For this project, we were provided with a dataset that lays out information about other kick-starter campaigns. The purpose of this analysis is to better understand and filter the tabular data. By performing this analysis, we will observe characteristics of other campaigns to reveal tendencies and patterns concatenated from various datapoints, creating new and useful information that will determine how we can best advise Louise in taking her next steps.
+Playwright Louise plans to launch a crowdfunding campaign to obtain funds for kick-starting her theater production, 'Fever'.  Louise has never launched a crowdfunding campaign, and needs help setting appropriate goals and identifying parameters for making well-informed decisions in creating the most optimal fundraising campaign. For this project, we were provided with a dataset that lays out information about other kick-starter campaigns. The purpose of this analysis is to better understand and filter the tabular data. By performing this analysis, we will observe characteristics of other campaigns to reveal tendencies and patterns concatenated from various datapoints, creating new and useful information that will determine how we can best advise Louise in taking her next steps.
 
 
 
@@ -16,15 +16,15 @@
 
 ## Analysis and Challenges
 
-#### We performed an analysis of fundraising campaigns according to their respective Launch Dates using a Pivot Table to filter data, and generated a chart to provide a visual representation of this analysis. We aimed here to understand the relationship between the months of the year in which camapigns were started and whether those are relevant in determining more or less propensity for success. We also performed an analysis of campaigns according to fundraising goals, generating a visual representation of that analysis as well. We applied formulas to evaluate tendencies of success and failure, dividing the goals in twelve different ranges. Using the Pivot Table and table of ranges respectively, we were able to generate line graphs that were tailored to salient those specific analytic scopes.
+We performed an analysis of fundraising campaigns according to their respective Launch Dates using a Pivot Table to filter data, and generated a chart to provide a visual representation of this analysis. We aimed here to understand the relationship between the months of the year in which camapigns were started and whether those are relevant in determining more or less propensity for success. We also performed an analysis of campaigns according to fundraising goals, generating a visual representation of that analysis as well. We applied formulas to evaluate tendencies of success and failure, dividing the goals in twelve different ranges. Using the Pivot Table and table of ranges respectively, we were able to generate line graphs that were tailored to salient those specific analytic scopes.
 
 
 
 ### Analysis of Outcomes Based on Launch Date
 
-#### To generate a line chart exhibiting the total of successful, failed, and canceled campaigns over the twelve months of the year, throughout all years; we first  created a Pivot Chart using Filters for Parent Categories and Years. In the ‘Rows’ field, we dragged in Dates, removing the years and days, and leaving months. In the ‘Columns’ field, we placed Outcomes. In the ‘Values’ field, we placed the Count of Outcomes. 
+To generate a line chart exhibiting the total of successful, failed, and canceled campaigns over the twelve months of the year, throughout all years; we first  created a Pivot Chart using Filters for Parent Categories and Years. In the ‘Rows’ field, we dragged in Dates, removing the years and days, and leaving months. In the ‘Columns’ field, we placed Outcomes. In the ‘Values’ field, we placed the Count of Outcomes. 
 
-#### Filtering the data to include only ‘Theater’ from the Parent Category list, and leaving all years as parameters for counts of outcomes in every month, we created a line chart with months of the year in the _x-axis_ and count of outcomes in the _y-axis_, as seen below:
+Filtering the data to include only ‘Theater’ from the Parent Category list, and leaving all years as parameters for counts of outcomes in every month, we created a line chart with months of the year in the _x-axis_ and count of outcomes in the _y-axis_, as seen below:
 
 
 ![this is an image](Theater_Outcomes_vs_Launch.png)
@@ -34,9 +34,9 @@
 
 ### Analysis of Outcomes Based on Goals
 
-#### To generate a line chart exhibiting the percentage of successful, failed, and canceled campaigns across the various ranges established as monetary campaign goals; we created a table with the total goals represented by twelve ranges, distributed in rows, and seven columns, each representing the number of successful, failed, canceled and total number of projects, and respective percentage of projects. We populated the first three columns with COUNTIF() formulas to retrieve data according to the each fundraising goal range. Column number four contained the sum of the previous three columns. The last three columns contained the percentage of each type of outcome relative to the sum, by establishing the quotient between the number of the respective type of outcome in its respective column and the sum of Total Projects calculated in the fourth column. 
+To generate a line chart exhibiting the percentage of successful, failed, and canceled campaigns across the various ranges established as monetary campaign goals; we created a table with the total goals represented by twelve ranges, distributed in rows, and seven columns, each representing the number of successful, failed, canceled and total number of projects, and respective percentage of projects. We populated the first three columns with COUNTIF() formulas to retrieve data according to the each fundraising goal range. Column number four contained the sum of the previous three columns. The last three columns contained the percentage of each type of outcome relative to the sum, by establishing the quotient between the number of the respective type of outcome in its respective column and the sum of Total Projects calculated in the fourth column. 
 
-#### The line chart shows the twelve ranges in the _x-axis_, and percentages in the _y-axis_, as seen below:
+The line chart shows the twelve ranges in the _x-axis_, and percentages in the _y-axis_, as seen below:
 
 
 
@@ -50,13 +50,13 @@
 
 ### Challenges and Difficulties Encountered
 
-#### Spoken from the perspective of a student working on this project as a challenge for _Module 1_ learning, there were specific challenges and difficulties that I encountered.
+Spoken from the perspective of a student working on this project as a challenge for _Module 1_ learning, there were specific challenges and difficulties that I encountered.
 
-#### For instance, creating the pivot chart for the ‘Outcomes Based on Launch Date’ analysis presented challenges such as extracting from the date stamps the ranges based on months of the year, which required adding and then subtracting parameters in various fields as experimentation, to then arrive at the correct configuration. 
+For instance, creating the pivot chart for the ‘Outcomes Based on Launch Date’ analysis presented challenges such as extracting from the date stamps the ranges based on months of the year, which required adding and then subtracting parameters in various fields as experimentation, to then arrive at the correct configuration. 
 
-#### Creating the table for ‘Outcomes Based on Goals’ using 'COUNTIF()' formulas also presented challenges, such as having the circuitous task of copy/pasting the formula several times and altering the specific numbers for every cell, which provided ample room for error. I believe that this task would have been better executed with the aid of automated actions that could be reached by manipulating Excel in programmatic levels. The step of calculating percentages was to be inferred, and wasn’t fully explained, which provided the extra challenge of extrapolating knowledge from material that has been learned. 
+Creating the table for ‘Outcomes Based on Goals’ using 'COUNTIF()' formulas also presented challenges, such as having the circuitous task of copy/pasting the formula several times and altering the specific numbers for every cell, which provided ample room for error. I believe that this task would have been better executed with the aid of automated actions that could be reached by manipulating Excel in programmatic levels. The step of calculating percentages was to be inferred, and wasn’t fully explained, which provided the extra challenge of extrapolating knowledge from material that has been learned. 
 
-#### In both instances, having a visual reference for the correct format of the tables, charts and graphs that were being required was extremely useful. Taking those cues as reference points, I was able to orient the work that was I was doing accordingly.
+In both instances, having a visual reference for the correct format of the tables, charts and graphs that were being required was extremely useful. Taking those cues as reference points, I was able to orient the work that was I was doing accordingly.
 
 
 
